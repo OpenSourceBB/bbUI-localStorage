@@ -1,14 +1,53 @@
-bbUI-localStorage
-=================
+# bbUI localStorage Samples App
 
-The purpose of this app is to help BlackBerry developers who use the WebWorks platform use localStorage to make better apps, and to show off some of the things localStorage can do in an app. It is built in the context of bbUI.js, but localStorage will work in any HTML5 compliant web code. I will assume that you will use these samples in a bbUI app.
+This sample demonstrates multiple ways to use localStorage  to improve the end user experience of a BlackBerry WebWorks application for the BlackBerry Tablet OS. localStorage is the name of a proof-of-concept WebWorks application.
 
-bbUI.js is somewhat different from other forms of web development because it loads chunks of code into the main dom a bit at a time, as needed (in contrast to all at once), so there's some small things you should know about using the samples in this app.
+The sample code for this application is Open Source under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
 
-It is assumed that you have the source code for this application along with having the .bar loaded onto your PlayBook. If you don't have the source code, it should be available at https://github.com/scrid2000. If you're just using this app to check out some of the things localStorage can do, you can ignore this page entirely.
 
-In order for most of the features of this app to work, they are loaded into the main .html (index.html) from custom.js, which is located in the cssjs folder of the source code. 
+**Applies To**
 
-Therefore, it is best that you have the source code available, and that before going any further you look at the index.html and custom.js files. If you understand them, that's great, and you're well on your way to using localStorage in your apps. If you don't understand them, you will come to as yoou check out this app.
+* [BlackBerry Tablet OS](http://us.blackberry.com/developers/tablet/) 
+* [BlackBerry WebWorks SDK for Tablet OS](http://us.blackberry.com/developers/tablet/webworks.jsp)
 
-Finally, if you have any suggestions for imrpovements to this app, please do not hesitate to contact me at Support at SCrApps dot org. Good luck, and enjoy!
+**Author(s)** 
+
+* [G. Shane Cridlebaugh](http://github.com/SCrid2000), [SCrApps](https://SCrApps.org)
+* [OSBBx](http://x.opensourcebb.com)
+
+**Dependencies**
+
+HTML5
+Although this app is built using bbUI.js, the examples it uses will work in any HTML5 compliant browser or application.
+
+## How to Build
+
+To build the Aura sample application:
+
+
+1. Click on the Download Zip button above or the **Downloads** tab and save the .zip to your desktop.
+2. Open the downloaded ZIP file and extract the contents from inside the zipped Aura folder to your PC. This ensures that the necessary application assets, such as config.xml, are correctly located at the top level of the local localStorage folder.
+3. Package and sign using either the **[WebWorks command line tool](https://developer.blackberry.com/html5/download/sdk)** or the **[Ripple Mobile Emulator](http://developer.blackberry.com/html5/download)**; instructions for signing can be found at https://developer.blackberry.com/html5/documentation/packaging_your_app_1939301_11.html (https://developer.blackberry.com/html5/documentation/packaging_your_app_1939301_11.html)
+
+
+
+## More Info
+
+* [BlackBerry HTML5 WebWorks](https://bdsc.webapps.blackberry.com/html5/) - Downloads, Getting Started guides, samples, code signing keys.
+* [BlackBerry WebWorks Development Guides] (https://bdsc.webapps.blackberry.com/html5/documentation)
+* [BlackBerry WebWorks Community Forums](http://supportforums.blackberry.com/t5/Web-and-WebWorks-Development/bd-p/browser_dev)
+* [BlackBerry Open Source WebWorks Contributions Forums](http://supportforums.blackberry.com/t5/BlackBerry-WebWorks/bd-p/ww_con)
+
+
+## Contributing Changes
+
+Please see the [README](https://github.com/blackberry/WebWorks-Samples) of the WebWorks-Samples repository for instructions on how to add new Samples or make modifications to existing Samples.
+
+
+## Bug Reporting and Feature Requests
+
+If you find a bug in a Sample, or have an enhancement request, simply file an [Issue](https://github.com/blackberry/WebWorks-Samples/issues) for the Sample and send a message (via github messages) to the Sample Author(s) to let them know that you have filed an [Issue](https://github.com/blackberry/WebWorks-Samples/issues).
+
+## Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
