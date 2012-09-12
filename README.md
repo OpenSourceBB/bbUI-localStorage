@@ -1,6 +1,6 @@
 # bbUI localStorage Samples App
 
-This sample demonstrates multiple ways to use localStorage  to improve the end user experience of a BlackBerry WebWorks application for the BlackBerry Tablet OS. localStorage is the name of a proof-of-concept WebWorks application.
+This sample demonstrates multiple ways to use localStorage to improve the end user experience of a BlackBerry WebWorks application for the BlackBerry Tablet OS. localStorage is the name of a proof-of-concept WebWorks application.
 
 The sample code for this application is Open Source under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
 
@@ -12,7 +12,7 @@ The sample code for this application is Open Source under the [Apache 2.0 Licens
 
 **Author(s)** 
 
-* [G. Shane Cridlebaugh](http://github.com/SCrid2000), [SCrApps](https://SCrApps.org)
+* [G. Shane Cridlebaugh](http://github.com/SCrid2000), [SCrApps](http://SCrApps.org)
 * [OSBBx](http://x.opensourcebb.com)
 
 **Dependencies**
