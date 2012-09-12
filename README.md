@@ -7,8 +7,10 @@ The sample code for this application is Open Source under the [Apache 2.0 Licens
 
 **Applies To**
 
-* [BlackBerry Tablet OS](http://us.blackberry.com/developers/tablet/) 
-* [BlackBerry WebWorks SDK for Tablet OS](http://us.blackberry.com/developers/tablet/webworks.jsp)
+* [BlackBerry Tablet OS](https://developer.blackberry.com/html5/) 
+* [BlackBerry BlackBerry 10 OS](https://developer.blackberry.com/html5/) 
+	Note: as BlackBerry 10 is still under development, some functions might not work properly; however, most localStorage examples should work.
+* [BlackBerry WebWorks SDK for Tablet OS](https://developer.blackberry.com/html5/download/)
 
 **Author(s)** 
 
@@ -27,7 +29,7 @@ To build the Aura sample application:
 
 1. Click on the Download Zip button above or the **Downloads** tab and save the .zip to your desktop.
 2. Open the downloaded ZIP file and extract the contents from inside the zipped Aura folder to your PC. This ensures that the necessary application assets, such as config.xml, are correctly located at the top level of the local localStorage folder.
-3. Package and sign using either the **[WebWorks command line tool](https://developer.blackberry.com/html5/download/sdk)** or the **[Ripple Mobile Emulator](http://developer.blackberry.com/html5/download)**; instructions for signing can be found at https://developer.blackberry.com/html5/documentation/packaging_your_app_1939301_11.html (https://developer.blackberry.com/html5/documentation/packaging_your_app_1939301_11.html)
+3. Package and sign using either the **[WebWorks command line tool](https://developer.blackberry.com/html5/download/sdk)** or the **[Ripple Mobile Emulator](http://developer.blackberry.com/html5/download)** for Tablet OS or BlackBerry 10. Instructions for signing can be found at https://developer.blackberry.com/html5/documentation/packaging_your_app_1939301_11.html (https://developer.blackberry.com/html5/documentation/packaging_your_app_1939301_11.html)
 
 
 
@@ -37,6 +39,7 @@ To build the Aura sample application:
 * [BlackBerry WebWorks Development Guides] (https://bdsc.webapps.blackberry.com/html5/documentation)
 * [BlackBerry WebWorks Community Forums](http://supportforums.blackberry.com/t5/Web-and-WebWorks-Development/bd-p/browser_dev)
 * [BlackBerry Open Source WebWorks Contributions Forums](http://supportforums.blackberry.com/t5/BlackBerry-WebWorks/bd-p/ww_con)
+* [OpenSourceBBx](http://x.opensourcebb.com)
 
 
 ## Contributing Changes

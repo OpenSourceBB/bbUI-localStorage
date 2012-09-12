@@ -8,7 +8,7 @@ Click the button below to set the localStorage value to "something," which is pr
 	<div data-bb-type="round-panel"> 
 
 		<div data-bb-type="button" data-bb-style="stretch"  onclick="localStorage.setItem('redirect','something');bb.popScreen();">Set localStorage to "something" and return to the main screen.</div>
-		<div data-bb-type="button" data-bb-style="stretch" onclick="localStorage.clear('redirect');bb.popScreen();">Delete the localStorage key and return to the main screen.</div>
+		<div data-bb-type="button" data-bb-style="stretch" onclick="localStorage.removeItem('redirect');bb.popScreen();">Delete the localStorage key and return to the main screen.</div>
 	</div>
 
 	<div data-bb-type="action-bar" data-bb-back-caption="Back"></div>
